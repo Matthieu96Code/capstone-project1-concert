@@ -143,3 +143,9 @@ footer {
 footer img {
     width: 40px;
 }
+
+@media all and (min-width: 768px) {
+    body {
+        background-color: black;
+    }
+}
