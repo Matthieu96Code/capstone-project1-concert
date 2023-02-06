@@ -74,3 +74,4 @@ for (let guest in featureGuest) {
     everyFeatureDiv.appendChild(speakerPicture);
     featureSpeakersSection.appendChild(everyFeatureDiv);
 }
+

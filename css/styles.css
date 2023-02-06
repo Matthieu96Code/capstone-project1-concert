@@ -16,14 +16,14 @@
     letter-spacing: 0.40px;
 }
 
-.lato-font-back {
+.lato-font-black {
     margin: 0;
-    color: #272a31;  
+    color: #272a31;
     font-family: 'lato',Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 30px;
     letter-spacing: 0.40px;
 }
 
@@ -36,14 +36,9 @@
 
 /* nav */
 
-main {
-    padding-top: 12px;
-}
-
-.nav-bar,
-.headline {
+.nav-bar {
     background-color: rgb(0, 0, 0, 5%);
-    padding-left: 12px;
+    padding: 12px 0 0 12px;
 }
 
 .hamburger-class img{
@@ -53,11 +48,17 @@ main {
 
 /* Headline */
 
+.headline {
+    background-color: rgb(0, 0, 0, 5%);
+    padding: 84px 12px;
+}
+
 .headline h2 {
-    margin: 24px 0 6px;
+    margin-bottom: 6px;
 }
 
 .headline h1 {
+    margin-bottom: 24px;
     font-weight: 700;
     font-size: 36px;
     line-height: 36px;
@@ -65,7 +66,15 @@ main {
 }
 
 .headline #description {
+    padding: 24px;
     border: solid 2px #fff;
+}
+
+.headline #event-date {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
 }
 
 /* Main program section */
