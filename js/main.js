@@ -43,10 +43,8 @@ const featureSpeakersSection = document.querySelector('.featured-speakers');
 
 for (let guest in featureGuest) {
 
-    console.log(featureGuest[guest].name)
-
     const everyFeatureDiv = document.createElement('div');
-    everyFeatureDiv.className = 'every-Feature';
+    everyFeatureDiv.className = 'every-feature';
 
     const speakerPicture = document.createElement('img');
     speakerPicture.className = 'speaker-picture';

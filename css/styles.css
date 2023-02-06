@@ -51,6 +51,8 @@ main {
     height: auto;
 }
 
+/* Headline */
+
 .headline h2 {
     margin: 24px 0 6px;
 }
@@ -65,6 +67,8 @@ main {
 .headline #description {
     border: solid 2px #fff;
 }
+
+/* Main program section */
 
 .main-program {
     display: flex;
@@ -113,6 +117,27 @@ main {
     padding: 24px 36px;
     width: fit-content;
 }
+
+/* featured speakers section */
+
+.featured-speakers .every-feature {
+    margin: 24px;
+    display: flex;
+}
+
+.featured-speakers .speaker-picture {
+    margin-right: 24px;
+    order: -1;
+    width: 100px;
+}
+
+.featured-speakers div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* partner section */
 
 .partner-pool {
     background-color: #272a31;
