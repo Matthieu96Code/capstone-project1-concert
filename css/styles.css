@@ -1,0 +1,28 @@
+/* Font */
+
+@font-face {
+    font-family: 'lato';
+    src: url(/fonts/Lato2OFL/Lato-Regular.ttf) format('truetype');
+}
+
+.lato-font-red {
+    margin: 0;
+    color: #ec5242;  
+    font-family: 'lato',Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.40px;
+}
+
+.lato-font-back {
+    margin: 0;
+    color: #272a31;  
+    font-family: 'lato',Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.40px;
+}
