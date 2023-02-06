@@ -113,3 +113,33 @@ main {
     padding: 24px 36px;
     width: fit-content;
 }
+
+.partner-pool {
+    background-color: #272a31;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-pool .partner-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partner {
+    text-align: center;
+    flex: 1 1 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 40px;
+}
