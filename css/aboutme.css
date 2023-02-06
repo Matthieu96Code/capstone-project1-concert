@@ -34,3 +34,16 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.past-festival img {
+    width: 80%;
+    margin: 6px;
+}
+
+.past-festival .last-festival {
+    margin-top: 30px;
+}
+
+.past-festival .before-last {
+    margin-bottom: 42px
+}
