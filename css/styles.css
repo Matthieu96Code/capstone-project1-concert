@@ -219,18 +219,25 @@ header .header-links,
 }
 
 footer {
+    padding: 36px 13%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 footer img {
-    width: 40px;
+    max-width: 60px;
+    
+}
+
+footer div {
+    
 }
 
 @media all and (min-width: 768px) {
-    body {
-        background-color: black;
-    }
+    /* body {
+        background-color: wheat;
+    } */
 
     header .header-links {
         padding-right: 12%;
@@ -328,5 +335,18 @@ footer img {
         margin: 24px;
     }
 
-    .
+    
+    .featured-speakers {
+        padding: 63px 13%;
+        display: grid;
+        grid-template-columns: auto auto;    
+    }
+
+    .partner-pool {
+        padding: 36px 13%;
+    }
+
+    footer {
+        padding: 48px 13%;
+    }
 }
