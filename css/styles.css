@@ -4,6 +4,7 @@
 @font-face {
     font-family: 'lato';
     src: url(/fonts/Lato2OFL/Lato-Regular.ttf) format('truetype');
+    
     font-family: 'lato-bold';
           src: url(/fonts/Lato2OFL/Lato-Bold.ttf) format('truetype');
 }
@@ -46,7 +47,7 @@ li {
 }
 
 main {
-    background-image: url(/img/root/mobile_bg.png);
+    background-image: url(../img/root/mobile_bg.png);
     background-repeat: repeat-x;
 }
 
@@ -79,7 +80,7 @@ header .header-links,
 }
 
 .headline h1 {
-    background-image: url(/img/root/headerbg.jpeg);
+    background-image: url(../img/root/headerbg.jpeg);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -167,6 +168,22 @@ header .header-links,
 
 /* featured speakers section */
 
+.speakers-section {
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.speakers-section h3 {
+    line-height: 50px;
+    order: -1;
+    margin: auto;
+}
+
+.featured-speakers {
+    padding: 24px 0;
+}
+
 .featured-speakers .every-feature {
     margin: 24px;
     display: flex;
@@ -182,6 +199,14 @@ header .header-links,
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.speakers-section button {
+    margin: auto;
+    width: 90%;
+    padding: 18px;
+    font-style: normal;
+    font-size: 18px;
 }
 
 /* partner section */
@@ -331,6 +356,7 @@ footer div {
     }
 
     .main-program #see-program {
+        display: block;
         text-decoration: underline;
         margin: 24px;
     }
@@ -340,6 +366,10 @@ footer div {
         padding: 63px 13%;
         display: grid;
         grid-template-columns: auto auto;    
+    }
+
+    .speakers-section button {
+        display: none;
     }
 
     .partner-pool {
