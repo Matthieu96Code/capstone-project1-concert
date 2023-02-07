@@ -4,6 +4,8 @@
 @font-face {
     font-family: 'lato';
     src: url(/fonts/Lato2OFL/Lato-Regular.ttf) format('truetype');
+    font-family: 'lato-bold';
+          src: url(/fonts/Lato2OFL/Lato-Bold.ttf) format('truetype');
 }
 
 .lato-font-red {
@@ -98,7 +100,7 @@ header .header-links,
 .headline #event-date {
     margin-top: 24px;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 48px;
 }
 
@@ -284,7 +286,7 @@ footer img {
         border: solid #ec5242 4px;
         flex: 2.5 1;
     }
-/*
+
     .headline {
         padding-right: 13%;
         padding-left: 13%;
@@ -292,8 +294,8 @@ footer img {
 
     .headline h1 {
         font-weight: 700;
-        font-size: 42px;
-        line-height: 36px;
-        letter-spacing: 0.40px;
+        font-size: 58px;
+        line-height: 52px;
+        letter-spacing: 0.80px;
     }
-}*/
+}
