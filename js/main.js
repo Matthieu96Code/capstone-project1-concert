@@ -2,40 +2,40 @@
 
 const featureGuest = {
     guestOne: {
-        name: 'First Person',
+        name: 'Luc Mayitoukoua',
         skills: 'Contre-bass',
-        nationality: 'USA',
-        picture: "/img/iconmonstr-school-6-240.png"
+        nationality: 'Senegal',
+        picture: "/img/luc.png"
     },
     guestTwo: {
-        name: 'Second Person',
+        name: 'Stéphanie Soleansky',
         skills: 'keyboard',
-        nationality: 'Germmany',
-        picture: "/img/iconmonstr-school-6-240.png"
+        nationality: 'France',
+        picture: "/img/steph.png"
     },
     guestThree: {
-        name: 'third Person',
+        name: 'Natalie Aloessode Bernardin',
         skills: 'drums',
-        nationality: 'France',
-        picture: "/img/iconmonstr-school-6-240.png"
+        nationality: 'Canada',
+        picture: "/img/natalie.png"
     },
     guestFour: {
-        name: 'fourth Person',
+        name: 'Mawuto Dick',
         skills: 'Singer',
         nationality: 'Maroc',
-        picture: "/img/iconmonstr-school-6-240.png"
+        picture: "/img/mawuto.png"
     },
     guestFive: {
-        name: 'fifth Person',
-        skills: 'Guitare',
-        nationality: 'Congo',
-        picture: "/img/iconmonstr-school-6-240.png"
+        name: 'Cyriaque Noussouglo',
+        skills: 'Artiste et co-fondatrice Afropolitain Nomade',
+        nationality: 'Canada',
+        picture: "/img/cyriaque.png"
     },
     guestSix: {
-        name: 'sixth Person',
-        skills: 'Bass',
+        name: 'Vanessa Kanga',
+        skills: 'Artiste et co-fondatrice Afropolitain Nomade',
         nationality: 'Togo',
-        picture: "/img/iconmonstr-school-6-240.png"
+        picture: "/img/vanessa.png"
     }
 }
 
