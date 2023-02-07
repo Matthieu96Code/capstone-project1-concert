@@ -169,6 +169,7 @@ header .header-links,
 /* featured speakers section */
 
 .speakers-section {
+    background-color: #f9f9f9;
     padding: 48px 0;
     display: flex;
     flex-direction: column;
@@ -213,7 +214,6 @@ header .header-links,
 
 .partner-pool {
     background-color: #272a31;
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,6 +221,7 @@ header .header-links,
 }
 
 .partner-pool h3 {
+    color: #a1a1a1;
     line-height: 48px;
 }
 
@@ -228,13 +229,15 @@ header .header-links,
     width: 100%;
     margin-top: 24px;
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
     flex-wrap: wrap;
 }
 
 .partner {
+    padding-bottom: 24px;
+    min-width: 150px;
     text-align: center;
+    color: #a1a1a1;
+    flex: 1 1 100px;
 }
 
 .partner-logo img {
@@ -242,6 +245,7 @@ header .header-links,
     height: auto;
     text-align: center;
 }
+
 
 footer {
     padding: 36px 13%;
@@ -363,7 +367,7 @@ footer div {
 
     
     .featured-speakers {
-        padding: 63px 13%;
+        padding: 24px 13%;
         display: grid;
         grid-template-columns: auto auto;    
     }
