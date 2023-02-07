@@ -161,6 +161,10 @@ header .header-links,
     width: fit-content;
 }
 
+.main-program #see-program {
+    display: none;
+}
+
 /* featured speakers section */
 
 .featured-speakers .every-feature {
@@ -206,14 +210,12 @@ header .header-links,
 
 .partner {
     text-align: center;
-    /* flex: 1 1 100px; */
 }
 
 .partner-logo img {
     width: 70px;
     height: auto;
     text-align: center;
-    /* flex: 1 1 100px; */
 }
 
 footer {
@@ -298,4 +300,33 @@ footer img {
         line-height: 52px;
         letter-spacing: 0.80px;
     }
+
+    .main-program ul {
+        padding: 36px 13%;
+        display: flex;
+    }
+
+    .main-program li {
+        text-align: center;
+        margin: 1px;
+    }
+
+    .main-program div {
+        flex-direction: column;
+    }
+
+    .main-program li a .program-content {
+        margin: 12px;
+    }
+
+    .main-program .join-btn {
+        display: none;
+    }
+
+    .main-program #see-program {
+        text-decoration: underline;
+        margin: 24px;
+    }
+
+    .
 }
