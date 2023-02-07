@@ -246,11 +246,54 @@ footer img {
         line-height: 24px;
     }
 
-    .nav-bar ul li
-
     .hamburger-class{
         display: none;
     }
 
+    .nav-bar {
+        padding: 0;
+    }
+
+    .nav-bar .menu-bar {
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-end;
+        padding: 6px 13%;
+    }
     
-}
+    .menu-bar li {
+        text-align: center;
+        margin: auto;
+        padding: 0 6px;
+        flex: 1 1 ;
+    }
+
+    .menu-bar .menu-logo {
+        text-align: left;
+        flex: 2 1 ;
+    }
+
+    .menu-logo img {
+        max-width: 70px;
+        height: 100%;
+    }
+
+    .menu-bar .campaign {
+        max-width: fit-content;
+        padding: 6px;
+        border: solid #ec5242 4px;
+        flex: 2.5 1;
+    }
+/*
+    .headline {
+        padding-right: 13%;
+        padding-left: 13%;
+    }
+
+    .headline h1 {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 36px;
+        letter-spacing: 0.40px;
+    }
+}*/
