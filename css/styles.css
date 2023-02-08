@@ -102,6 +102,10 @@ header .header-links,
     width: 70%;
     border: solid #ec5242 2px;
     border-top: none;
+    margin-bottom: 24px;
+}
+
+.main-menu li a {
     color: #272a31;
     font-family: 'lato',Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
@@ -109,7 +113,6 @@ header .header-links,
     font-size: 24px;
     line-height: 39px;
     letter-spacing: 0.40px;
-    margin-bottom: 24px;
 }
 
 /* Headline */
