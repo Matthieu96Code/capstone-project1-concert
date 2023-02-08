@@ -1,4 +1,3 @@
-console.log(document.querySelector('.last-festival'))
 
 const featureGuest = {
     guestOne: {
@@ -118,7 +117,38 @@ if (x.matches) {
     ndSpeakers()
 }
 const moreSpeakersBtn = document.querySelector('.speakers-section button')
+
 moreSpeakersBtn.addEventListener('click', ndSpeakers);
 moreSpeakersBtn.addEventListener('click', () =>{
     moreSpeakersBtn.remove()
 });
+
+const hamburgerBtn = document.querySelector('.hamburger-class a')
+
+function callMenu () {
+
+    const headerSection = document.querySelector('header')
+
+    const mainMenu = document.createElement('div');
+    mainMenu.className = 'main-menu';
+
+
+    mainMenu.innerHTML = '<a class="menu-toggle" id="close-btn" href="#" ><img src="./img/png-transparent-x-cross-wrong-sign.png" alt="close button"></a><ul><li>Home Page</li><li>about</li><li>Program</li><li>Join</li><li>Sponsor</li><li>News</li><li>LP Compaign</li></ul>'
+
+    headerSection.appendChild(mainMenu)
+}
+
+hamburgerBtn.addEventListener('click', () =>{
+    callMenu ()
+    const mainMenuList = document.querySelector('.main-menu');
+    const crossIcon = document.querySelector('.main-menu #close-btn img');
+    crossIcon.addEventListener('click', () =>{
+        mainMenuList.remove()
+    });
+    
+    console.log('mainMenuList')
+});
+
+
+
+
