@@ -88,24 +88,15 @@ function callSpeakers(guest) {
   featureSpeakersSection.appendChild(everyFeatureDiv);
 }
 
-let stObjCount = 0;
+const guestArray = Object.keys(featureGuest);
 
-for (const guest in featureGuest) {
-  stObjCount += 1;
-
-  if (stObjCount < 3) {
-    callSpeakers(guest);
-  }
+for (let guest = 0; guest < guestArray.length - 4; guest += 1) {
+  callSpeakers(guestArray[guest]);
 }
 
 function ndSpeakers() {
-  let ndObjCount = 0;
-  for (const guest in featureGuest) {
-    ndObjCount += 1;
-
-    if (ndObjCount > 2) {
-      callSpeakers(guest);
-    }
+  for (let guest = 2; guest < guestArray.length; guest += 1) {
+    callSpeakers(guestArray[guest]);
   }
 }
 
