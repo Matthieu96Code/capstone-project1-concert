@@ -83,10 +83,6 @@ header .header-links,
 }
 
 .main-menu #close-btn img {
-    
-}
-
-.main-menu #close-btn img {
     width: 60px;
     height: 40px;
     margin: 24px 0 0 15px;
@@ -118,11 +114,10 @@ header .header-links,
 /* Headline */
 
 .headline {
-    background-color: rgb(0, 0, 0, 5%);
     padding: 84px 24px;
 }
 
-.headline h2 {
+.headline #greeting {
     margin-bottom: 6px;
 }
 
@@ -155,10 +150,11 @@ header .header-links,
 /* Main program section */
 
 .main-program {
+    background-size: 40px;
+    background-image: url(../img/50-Beautiful-and-Minimalist-Presentation-Backgrounds-046.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #272a31;
     padding: 36px 0;
 }
 
@@ -178,26 +174,29 @@ header .header-links,
 }
 .main-program li {
     margin: 12px;
-    background-color: rgb(200, 200, 200, 10%);
+    background-color: rgb(100, 100, 50, 10%);
 }
 
 .main-program a {
-    color: #d2d2d2;
     text-decoration: none;
 }
 
 .main-program a div {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 100px auto;
     align-items: center;
 }
 
+.main-program li a .program-content{
+    margin: 12px 24px;
+}
 
 .main-program img {
     width: 36px;
 }
 
-.main-program li a .program-content{
-    margin: 12px 24px;
+.main-program li a p {
+    color: #d2d2d2;
 }
 
 .main-program .join-btn {
@@ -223,6 +222,7 @@ header .header-links,
 }
 
 .speakers-section h3 {
+    font-weight: 700;
     line-height: 50px;
     order: -1;
     margin: auto;
@@ -241,6 +241,12 @@ header .header-links,
     margin-right: 24px;
     order: -1;
     width: 100px;
+    display: flex;
+    margin-bottom: auto;
+}
+
+.featured-speakers img {
+    object-fit: contain;
 }
 
 .featured-speakers div div {
@@ -253,7 +259,7 @@ header .header-links,
     margin: auto;
     width: 90%;
     padding: 18px;
-    font-style: normal;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -279,37 +285,33 @@ header .header-links,
     flex-wrap: wrap;
 }
 
-.partner {
-    padding-bottom: 24px;
-    min-width: 150px;
-    text-align: center;
-    color: #a1a1a1;
-    flex: 1 1 100px;
+.partner-logo .partner {
+    margin: 12px 6px;
+    max-width: 80%;
+    height: 45px;
+    display: flex;
+    flex: 1 1;
 }
 
 .partner-logo img {
-    width: 70px;
-    height: auto;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit:contain ;
 }
-
 
 footer {
     padding: 36px 13%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 footer img {
+    padding: 0 6%;
     max-width: 60px;
     
 }
 
 @media all and (min-width: 768px) {
-    /* body {
-        background-color: wheat;
-    } */
 
     header .header-links {
         padding-right: 12%;
@@ -380,17 +382,28 @@ footer img {
         letter-spacing: 0.80px;
     }
 
+    .headline p {
+        max-width: 50%;
+        min-width: 500px;
+    }
+
     .main-program ul {
         padding: 36px 13%;
         display: flex;
     }
 
     .main-program li {
+        width: 20%;
         text-align: center;
         margin: 1px;
     }
 
     .main-program div {
+        flex-direction: column;
+    }
+
+    .main-program a div {
+        display: flex;
         flex-direction: column;
     }
 
@@ -403,6 +416,7 @@ footer img {
     }
 
     .main-program #see-program {
+        color: #d2d2d2;
         display: block;
         text-decoration: underline;
         margin: 24px;

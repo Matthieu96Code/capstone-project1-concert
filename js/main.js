@@ -2,38 +2,38 @@
 const featureGuest = {
     guestOne: {
         name: 'Luc Mayitoukoua',
-        skills: 'Contre-bass',
-        nationality: 'Senegal',
+        job: 'Cultural entrepreneur, consultant and director ZHU Culture from Senegal',
+        subject: 'Markets and cultural networks',
         picture: "./img/luc.png"
     },
     guestTwo: {
         name: 'Stéphanie Soleansky',
-        skills: 'keyboard',
-        nationality: 'France',
+        job: 'Consultant and cultural entrepreneur from France',
+        subject: 'Women and cultural entrepreneurship',
         picture: "./img/steph.png"
     },
     guestThree: {
         name: 'Natalie Aloessode Bernardin',
-        skills: 'drums',
-        nationality: 'Canada',
+        job: 'Consultant and artist manager from Canade',
+        subject: 'Women and cultural entrepreneurship',
         picture: "./img/natalie.png"
     },
     guestFour: {
         name: 'Mawuto Dick',
-        skills: 'Singer',
-        nationality: 'Maroc',
+        job: 'cultural entrepreneur, director of the togoville jazz festival from Togo',
+        subject: 'The music charters of the world',
         picture: "./img/mawuto.png"
     },
     guestFive: {
         name: 'Cyriaque Noussouglo',
-        skills: 'Artiste et co-fondatrice Afropolitain Nomade',
-        nationality: 'Canada',
+        job: 'general secretary of the national commission of francophonie in togo',
+        subject: 'cultural and creative industries',
         picture: "./img/cyriaque.png"
     },
     guestSix: {
         name: 'Vanessa Kanga',
-        skills: 'Artiste et co-fondatrice Afropolitain Nomade',
-        nationality: 'Togo',
+        job: 'Artist and co-founder of Afropolitain Nomade from Canada',
+        subject: 'women and cultural entrepreneurship',
         picture: "./img/vanessa.png"
     }
 }
@@ -63,12 +63,16 @@ function callSpeakers (guest) {
     
     
     const speakerDescription = document.createElement('div');
-    speakerDescription.className = 'speaker-description';
+    speakerDescription.className = 'lato-font-black';
+    speakerDescription.id = 'speaker-description';
 
     const speakerName = document.createElement('h4');
-    speakerName.className = 'speaker-name';
+    speakerName.id = 'speaker-name';
+
     const speakerSkills = document.createElement('p');
-    speakerSkills.className = 'speaker-skills';
+    speakerSkills.className = 'lato-font-red';
+    speakerSkills.id = 'speaker-skills';
+
     const speakerNationality = document.createElement('p');
     speakerNationality.className = 'speaker-nationality';
 
@@ -76,8 +80,8 @@ function callSpeakers (guest) {
     speakerPicture.src = featureGuest[guest].picture;
     speakerPicture.alt = featureGuest[guest].name +' picture';
     speakerName.innerText = featureGuest[guest].name;
-    speakerSkills.innerText = featureGuest[guest].skills;
-    speakerNationality.innerText = featureGuest[guest].nationality;
+    speakerSkills.innerText = featureGuest[guest].job;
+    speakerNationality.innerText = featureGuest[guest].subject;
     
     speakerDescription.appendChild(speakerName);
     speakerDescription.appendChild(speakerSkills);

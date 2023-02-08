@@ -20,6 +20,11 @@
     text-align: center;
 }
 
+.logo-selection img {
+    text-align: center;
+    max-width: 50%;
+}
+
 /* past festival */
 
 .past-festival {
@@ -31,6 +36,7 @@
 }
 
 .past-festival .last-festival-showed {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -38,6 +44,7 @@
 
 .past-festival .last-festival-div {
     margin: 12px 24px;
+    max-height: auto;
     width: 400px;
     height: 200px;
     background-color: #ec5242;
