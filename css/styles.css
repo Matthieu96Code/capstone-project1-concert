@@ -48,7 +48,7 @@ li {
 
 main {
     background-image: url(../img/root/mobile_bg.png);
-    background-repeat: repeat-x;
+    background-repeat: repeat;
 }
 
 /* nav */
@@ -75,11 +75,11 @@ header .header-links,
     height: 100vh;
     position: fixed;
     top: 0;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
+    z-index: 1;
 }
 
 .main-menu #close-btn img {
@@ -98,7 +98,7 @@ header .header-links,
     width: 70%;
     border: solid #ec5242 2px;
     border-top: none;
-    margin-bottom: 24px;
+    margin-bottom: 36px;
 }
 
 .main-menu li a {
@@ -134,10 +134,10 @@ header .header-links,
     letter-spacing: 0.40px;
 }
 
-.headline #description {
-    background-color: #e9e9e9;
+.headline #introduction {
+    background-color: rgb(250, 248, 254);
     padding: 24px;
-    border: solid 2px #fff;
+    border: solid 4px #fff;
 }
 
 .headline #event-date {
@@ -168,9 +168,10 @@ header .header-links,
 .underline-style {
     margin: auto;
     display: block;
-    max-width: 30%;
-    height: 0.01em;
+    width: 40px;
+    height: 0.06em;
     background-color: #ec5242;
+    margin-top: 20px;
 }
 .main-program li {
     margin: 12px;
@@ -382,7 +383,7 @@ footer img {
         letter-spacing: 0.80px;
     }
 
-    .headline p {
+    .headline #introduction {
         max-width: 50%;
         min-width: 500px;
     }
