@@ -35,7 +35,7 @@
 }
 
 .logo-selection p,
-.past-festival p {
+.past-festival p{
   margin: 48px 10%;
   font-size: 21px;
   font-weight: 400;
@@ -82,6 +82,13 @@
   object-fit: cover;
 }
 
+.past-festival img:hover {
+  opacity: 1;
+  z-index: 3;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
 .past-festival .last-festival-div div {
   position: absolute;
   color: white;
@@ -92,6 +99,10 @@
 
 .last-festival-div h5 {
   font-size: 24px;
+}
+
+.last-festival-div p {
+  margin: 0;
 }
 
 @media all and (min-width: 768px) {

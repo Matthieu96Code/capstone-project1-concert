@@ -15,7 +15,7 @@ hamburgerBtn.addEventListener('click', () => {
   callMenu();
   const mainMenuList = document.querySelector('.main-menu');
 
-  const menuList = document.querySelectorAll('.main-menu a');
+  const menuList = document.querySelectorAll('.main-menu');
   console.log(menuList);
   for (let list = 0; list < menuList.length; list += 1) {
     menuList[list].addEventListener('click', () => {
