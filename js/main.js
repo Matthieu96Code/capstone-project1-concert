@@ -48,8 +48,8 @@ featuredSpeakersTitle.innerHTML = 'Featured Speakers<span class="underline-style
 SpeakersSection.append(featuredSpeakersTitle);
 
 const moreSpeakers = document.createElement('button');
-moreSpeakers.className = 'fa fa-chevron-down';
-moreSpeakers.innerHTML = 'More'
+moreSpeakers.className = 'lato-font-black';
+moreSpeakers.innerHTML = 'More  ▼'
 
 SpeakersSection.append(moreSpeakers);
 
