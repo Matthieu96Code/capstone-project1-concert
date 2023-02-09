@@ -53,8 +53,8 @@ moreSpeakers.innerHTML = 'More  ▼';
 SpeakersSection.append(moreSpeakers);
 
 function callSpeakers(guest) {
-  const everyFeatureDiv = document.createElement('div');
-  everyFeatureDiv.className = 'every-feature';
+  const everyFeatureArticle = document.createElement('article');
+  everyFeatureArticle.className = 'every-feature';
 
   const speakerPicture = document.createElement('img');
   speakerPicture.className = 'speaker-picture';
@@ -70,6 +70,10 @@ function callSpeakers(guest) {
   speakerSkills.className = 'lato-font-red';
   speakerSkills.id = 'speaker-skills';
 
+  const underlineStyle = document.createElement('span');
+  underlineStyle.className = 'underline-style';
+  underlineStyle.id = 'speaker-infosplit';
+
   const speakerNationality = document.createElement('p');
   speakerNationality.className = 'speaker-nationality';
 
@@ -79,13 +83,14 @@ function callSpeakers(guest) {
   speakerSkills.innerText = featureGuest[guest].job;
   speakerNationality.innerText = featureGuest[guest].subject;
 
+  speakerSkills.appendChild(underlineStyle)
   speakerDescription.appendChild(speakerName);
   speakerDescription.appendChild(speakerSkills);
   speakerDescription.appendChild(speakerNationality);
 
-  everyFeatureDiv.appendChild(speakerDescription);
-  everyFeatureDiv.appendChild(speakerPicture);
-  featureSpeakersSection.appendChild(everyFeatureDiv);
+  everyFeatureArticle.appendChild(speakerDescription);
+  everyFeatureArticle.appendChild(speakerPicture);
+  featureSpeakersSection.appendChild(everyFeatureArticle);
 }
 
 const guestArray = Object.keys(featureGuest);

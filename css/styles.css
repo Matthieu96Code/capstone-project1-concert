@@ -235,10 +235,25 @@ header .header-links,
 }
 
 .speakers-section h3 {
+  font-size: 24px;
   font-weight: 700;
-  line-height: 50px;
   order: -1;
   margin: auto;
+}
+
+.speakers-section p {
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.speakers-section #speaker-skills {
+  font-style: italic;
+}
+
+#speaker-skills span {
+  width: 20px;
+  margin: 10px 0;
+  background-color: black;
 }
 
 .featured-speakers {
@@ -262,10 +277,9 @@ header .header-links,
   object-fit: contain;
 }
 
-.featured-speakers div div {
+.featured-speakers article div {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .speakers-section button {
