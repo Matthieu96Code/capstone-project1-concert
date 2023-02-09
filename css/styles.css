@@ -153,8 +153,13 @@ header .header-links,
 .main-program h2 {
   text-align: center;
   color: #d2d2d2;
+  font-size: 28px;
   line-height: 48px;
   margin-bottom: 24px;
+}
+
+.main-program h3 {
+  font-size: 21px;
 }
 
 .underline-style {
@@ -184,7 +189,7 @@ header .header-links,
   transition: 0.2s;
 }
 
-.main-program a div {
+.main-program a article {
   display: grid;
   grid-template-columns: auto 100px auto;
   align-items: center;
@@ -451,7 +456,7 @@ footer {
     flex-direction: column;
   }
 
-  .main-program a div {
+  .main-program a article {
     display: flex;
     flex-direction: column;
   }
