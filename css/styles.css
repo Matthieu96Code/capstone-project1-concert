@@ -142,8 +142,9 @@ header .header-links,
 /* Main program section */
 
 .main-program {
-  background-size: 40px;
-  background-image: url(../img/50-Beautiful-and-Minimalist-Presentation-Backgrounds-046.jpg);
+  background-size: 30px;
+  background-image: url(../img/root/diamond.png);
+  background-color: rgb(31, 34, 45);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,7 +242,12 @@ header .header-links,
   margin: auto;
 }
 
-.speakers-section p {
+.speakers-section h4 {
+  line-height: 21px;
+  padding-bottom: 9px;
+}
+
+.speakers-section .featured-speakers p {
   line-height: 18px;
   font-size: 14px;
 }
@@ -261,7 +267,11 @@ header .header-links,
 }
 
 .featured-speakers .every-feature {
-  margin: 24px;
+  background-image: url(../img/trans4.jpg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 10px 10px;
+  padding: 24px;
   display: flex;
 }
 
@@ -293,7 +303,7 @@ header .header-links,
 /* partner section */
 
 .partner-pool {
-  background-color: #272a31;
+  background-color: rgb(49, 50, 55);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -507,11 +517,11 @@ footer {
     padding: 48px 13%;
   }
 
-  .copyright .right-reseved {
+  .copyright .right-reserved {
     display: flex;
   }
 
-  .copyright .right-reseved p {
+  .copyright .right-reserved p {
     margin-right: 12px;
   }
 }

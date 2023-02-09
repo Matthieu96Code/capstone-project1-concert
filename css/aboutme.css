@@ -120,4 +120,16 @@
   .headline h1 {
     color: #ec5242;
   }
+
+  .partner-pool {
+    display: none;
+  }
+
+  footer {
+    background-color: rgb(46, 46, 46);
+  }
+
+  .right-reserved p {
+    color: #fff;
+  }
 }

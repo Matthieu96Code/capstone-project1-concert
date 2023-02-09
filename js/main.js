@@ -83,7 +83,7 @@ function callSpeakers(guest) {
   speakerSkills.innerText = featureGuest[guest].job;
   speakerNationality.innerText = featureGuest[guest].subject;
 
-  speakerSkills.appendChild(underlineStyle)
+  speakerSkills.appendChild(underlineStyle);
   speakerDescription.appendChild(speakerName);
   speakerDescription.appendChild(speakerSkills);
   speakerDescription.appendChild(speakerNationality);
