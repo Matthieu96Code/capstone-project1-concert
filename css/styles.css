@@ -173,13 +173,12 @@ header .header-links,
 
 .main-program li {
   margin: 12px;
-  background-color: rgb(100, 100, 50, 10%);
+  background-color: rgb(200, 200, 200, 18%);
 }
 
 .main-program li:hover {
   border: solid#fff 2px;
   transition: 0.5s;
-  background-color: rgb(50, 20, 20, 50%);
 }
 
 .main-menu li:hover a,
