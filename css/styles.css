@@ -297,6 +297,7 @@ header .header-links,
   margin-top: 24px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .partner-logo .partner {
@@ -489,5 +490,13 @@ footer {
 
   footer {
     padding: 48px 13%;
+  }
+
+  .copyright .right-reseved {
+    display: flex;
+  }
+
+  .copyright .right-reseved p{
+    margin-right: 12px;
   }
 }

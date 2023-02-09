@@ -75,6 +75,13 @@
   display: flex;
 }
 
+.past-festival .last-festival-div:hover{
+  margin: 0;
+  width: 450px;
+  height: 225px;
+  transition: 2s;
+}
+
 .past-festival img {
   opacity: 0.5;
   width: 100%;
@@ -85,7 +92,7 @@
 .past-festival img:hover {
   opacity: 1;
   z-index: 3;
-  transition: 0.5s;
+  transition: 1s;
   transition-delay: 0.5s;
 }
 

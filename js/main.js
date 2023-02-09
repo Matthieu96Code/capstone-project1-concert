@@ -1,38 +1,38 @@
 const featureGuest = {
   guestOne: {
     name: 'Luc Mayitoukoua',
-    job: 'Cultural entrepreneur, consultant and director ZHU Culture from Senegal',
+    job: 'Director ZHU Culture from Senegal',
     subject: 'Markets and cultural networks',
     picture: './img/luc.png',
   },
   guestTwo: {
     name: 'Stéphanie Soleansky',
     job: 'Consultant and cultural entrepreneur from France',
-    subject: 'Women and cultural entrepreneurship',
+    subject: 'Women and cultural entreprenership',
     picture: './img/steph.png',
   },
   guestThree: {
     name: 'Natalie Aloessode Bernardin',
-    job: 'Consultant and artist manager from Canade',
-    subject: 'Women and cultural entrepreneurship',
+    job: 'Artist manager from Canade',
+    subject: 'Women and cultural entreprenership',
     picture: './img/natalie.png',
   },
   guestFour: {
     name: 'Mawuto Dick',
-    job: 'cultural entrepreneur, director of the togoville jazz festival from Togo',
+    job: 'Director of the togoville jazz festival from Togo',
     subject: 'The music charters of the world',
     picture: './img/mawuto.png',
   },
   guestFive: {
     name: 'Cyriaque Noussouglo',
-    job: 'general secretary of the national commission of francophonie in togo',
+    job: 'Secretary of national committee of francophonie in togo',
     subject: 'cultural and creative industries',
     picture: './img/cyriaque.png',
   },
   guestSix: {
     name: 'Vanessa Kanga',
     job: 'Artist and co-founder of Afropolitain Nomade from Canada',
-    subject: 'women and cultural entrepreneurship',
+    subject: 'women and cultural entreprenership',
     picture: './img/vanessa.png',
   },
 };

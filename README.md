@@ -62,8 +62,8 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Include two web pages**
-- **Navigate througth all the pages with menu**
+- **Contains two web pages**
+- **Navigate througth all pages with menu**
 - **Responsive on desktop and mobile**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,7 +136,7 @@ You can deploy this project using: a GitHub Page
 
 
 - [ ] **more pages**
-- [ ] **more animation and transition**
+- [ ] **professional animations and transitions**
 - [ ] **Add section for visitors interaction and data storage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
