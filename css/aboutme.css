@@ -35,7 +35,7 @@
 }
 
 .logo-selection p,
-.past-festival p{
+.past-festival p {
   margin: 48px 10%;
   font-size: 21px;
   font-weight: 400;
@@ -75,7 +75,7 @@
   display: flex;
 }
 
-.past-festival .last-festival-div:hover{
+.past-festival .last-festival-div:hover {
   margin: 0;
   width: 450px;
   height: 225px;
