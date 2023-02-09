@@ -390,6 +390,7 @@ footer {
   }
 
   .menu-bar .campaign {
+    max-width: 150px;
     padding: 6px;
     border: solid #ec5242 4px;
     flex: 2.5 1;
