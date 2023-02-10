@@ -1,0 +1,4 @@
+# .gitignore
+node_modules/
+/css/styles_test.css
+node_modules

@@ -1,0 +1,135 @@
+/* Headline */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.headline #description {
+  margin: 24px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.headline a {
+  font-weight: 600;
+}
+
+/* logo selection section */
+
+.logo-selection {
+  background-color: #fff;
+  padding: 58px 13%;
+  text-align: center;
+  border-bottom: solid 2px #d3d3d3;
+  border-top: solid 2px #d3d3d3;
+}
+
+.logo-selection h2,
+.past-festival h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logo-selection p,
+.past-festival p {
+  margin: 48px 10%;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.logo-selection img {
+  padding: 24px;
+  text-align: center;
+  max-width: 50%;
+  border: solid 2px #d3d3d3;
+}
+
+/* past festival */
+
+.past-festival {
+  background-color: #fff;
+  padding: 58px 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.past-festival .last-festival-showed {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.past-festival .last-festival-div {
+  margin: 12px 24px;
+  width: 400px;
+  height: 200px;
+  background-color: #ec5242;
+  position: relative;
+  display: flex;
+}
+
+.past-festival .last-festival-div:hover {
+  margin: 0;
+  width: 450px;
+  height: 225px;
+  transition: 2s;
+}
+
+.past-festival img {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.past-festival img:hover {
+  opacity: 1;
+  z-index: 3;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.past-festival .last-festival-div div {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 5%;
+  font-size: 16px;
+}
+
+.last-festival-div h5 {
+  font-size: 24px;
+}
+
+.last-festival-div p {
+  margin: 0;
+}
+
+@media all and (min-width: 768px) {
+  .headline #greeting {
+    display: none;
+  }
+
+  .headline h1 {
+    color: #ec5242;
+  }
+
+  .partner-pool {
+    display: none;
+  }
+
+  footer {
+    background-color: rgb(46, 46, 46);
+  }
+
+  .right-reserved p {
+    color: #fff;
+  }
+}
