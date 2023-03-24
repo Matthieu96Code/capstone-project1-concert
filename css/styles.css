@@ -427,7 +427,6 @@ footer {
   .menu-bar .campaign:hover a,
   .menu-bar .campaign:hover {
     background-color: #ec5242;
-    border: none;
     color: #fff;
     transition: 0.4s;
   }
