@@ -92,12 +92,21 @@ In order to run this project you need: a web-browser on a computer
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Matthieu96Code/capstone-project1-concert.git
+Clone this repository to your desired folder: 
 
+```sh
+  cd my-folder
+  git clone https://github.com/Matthieu96Code/capstone-project1-concert.git
+```
 
 ### Install
 
-Not required
+Install this project with:
+
+```sh
+  cd my-project
+  npm install
+```
 
 ### Usage
 
@@ -107,13 +116,11 @@ launch the index.html file with your desired browser
 
 ### Run tests
 
-To run tests, run the following command:
-
 launch the index.html file with your desired browser
 
 ### Deployment
 
-You can deploy this project using: a GitHub Page
+> Coming Soon
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
